@@ -93,8 +93,3 @@ snapclass/
 
 ---
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/snehal-k04/AI-Attendance-App/issues).
-
----
