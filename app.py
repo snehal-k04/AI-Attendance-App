@@ -8,7 +8,7 @@ from src.components.enroll_from_link import enroll_from_link
 def login():
     st.set_page_config(
         page_title='TheAbsentee-Making Attendance faster using AI',
-        page_icon="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2-alSeoTkg7ud9K9VvUq9NI6RUUOx9SQdDr_R0WXAng&s=10"
+        page_icon="src/ui/image.svg"
     )
     if 'login_type' not in st.session_state:
         st.session_state['login_type']=None

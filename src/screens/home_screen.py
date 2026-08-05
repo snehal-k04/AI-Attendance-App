@@ -7,7 +7,7 @@ def home_screen():
     home_layout()
     header_layout()
     
-    tea_url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbZn-WkhIun0hLEFqtIv3GL2l3Qjzqit7zN0oCZW_9xw&s=10"
+    tea_url="https://img.magnific.com/free-vector/female-scientist-with-glasses-working-lab_23-2148484807.jpg?semt=ais_hybrid&w=740&q=80"
     stu_url="https://png.pngtree.com/png-clipart/20250209/original/pngtree-a-group-of-people-cute-style-cartoon-style-college-student-graduation-png-image_20399531.png"
     
     col1,col2=st.columns(2,gap="xxlarge")

@@ -2,7 +2,7 @@ import streamlit as st
 
 
 def header_layout():
-    st.image("src/ui/image.svg",width =78)
+    st.image("src/ui/image.svg",width =60)
     
     st.markdown("""
         <h1 style="color:#0D0100">The<br>Absentee</h1>

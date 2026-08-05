@@ -4,11 +4,12 @@ def home_layout():
 
     st.markdown("""   
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Fredoka:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
-                               
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');                             
+
 .stApp{
-background-color:#61020B !important ;        
+background-color:#E8E4F3 !important ;        
 }
 
 #MainMenu,header,footer{
@@ -28,13 +29,13 @@ padding:1.5rem ;
 h1{
 margin-top:-20px !important;
 border:none !important;
-padding-bottom:20px !important;
+padding-bottom:30px !important;
 margin-left:20px !important;
 text-align: center !important ;
-color:white !important;
-font-family: "Nosifer", sans-serif !important;
+color:#4A1942 !important;
+font-family: "Viga", sans-serif !important;
 font-style: normal !important; 
-line-height:50px !important;
+line-height:35px !important;
 transform:scaleX(1.5) !important;
 }
                 
@@ -60,12 +61,13 @@ font-family: "Croissant One", serif !important;
 
 button[kind="primary"]{
 margin-left:50px !important;
-background-color:#07998B !important;
+background-color:#E8613C !important;
 font-weight:bold !important;
-color:#000000 !important;
+color:white !important;
 transition:1s  ease-in-out !important;
 border :none ! important;
 margin-top:-15px !important;
+font-family: "Nunito", sans-serif !important;
 }
                 
 button[kind="primary"]:hover{
@@ -73,6 +75,7 @@ transform:scale(1.1) !important;
 box-shadow: 5px 5px 20px black !important;
 
 }
+
 </style>
 """,unsafe_allow_html=True)
 
@@ -103,7 +106,7 @@ margin-bottom:20px !important;}
                 
 button[kind="secondary"]{
 background-color:#E90164 !important;
-color:black !important;
+color:white  !important;
 margin-top:30px !important;
 border-radius:100px !important;
 transition:1s  ease-in-out !important;
@@ -116,7 +119,7 @@ box-shadow: 5px 5px 20px #000000 !important;
 
 button[kind="tertiary"]{
 background-color:purple !important;
-color:black !important;
+color:white !important;
 margin-top:30px !important;
 border-radius:100px !important;
 transition:1s  ease-in-out !important;
