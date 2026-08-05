@@ -4,7 +4,7 @@ import io
 
 @st.dialog("🔁Share subject link")
 def share_sub_dialogue(sub_name,sub_code):
-    url="http://localhost:8501"
+    url="the-attendance-main.streamlit.app"
     join_link=f"{url}/?join-code={sub_code}"
 
     qr=segno.make(join_link)
