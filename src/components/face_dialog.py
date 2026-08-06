@@ -5,7 +5,8 @@ from src.database.db import save_logs
 @st.dialog("📋Attendance Report")
 def face_dialog(result,logs):
     st.text("Please review the detected attendance before confirming.Absent students are automatically marked as well.")
-    st.dataframe(result,hide_index=True)
+    st.dataframe(
+    result, hide_index=True, width='stretch')
 
 
     c1,c2=st.columns(2,gap="small")

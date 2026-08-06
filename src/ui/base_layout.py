@@ -261,7 +261,8 @@ transition:1s  ease-in-out !important;
 
 }
                 
-
+[data-testid="stDataFrame"]{
+margin-left:-90px !important;}
                 
 button[kind="tertiary"]{
 background-color:#000000 !important;

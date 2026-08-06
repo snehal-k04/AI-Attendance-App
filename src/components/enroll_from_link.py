@@ -24,7 +24,7 @@ def enroll_from_link(code):
             st.rerun()
         return
     
-    st.markdown(f"Would you like to enroll in {subject["sub_name"]}")
+    st.markdown(f"Would you like to enroll in {subject['sub_name']}")
 
     col1,col2=st.columns(2,gap="medium")
     

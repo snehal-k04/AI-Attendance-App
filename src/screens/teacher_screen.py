@@ -123,7 +123,7 @@ def take_attendance_screen():
     subjects=get_teacher_subjects(teacher_id)
     if not subjects:
         st.info("You have not created any subjects yet!")
-    total_subject={f"{s["sub_name"]}-{s['sub_code']}":s['sub_id'] for s in subjects}
+    total_subject={f"{s['sub_name']}-{s['sub_code']}":s['sub_id'] for s in subjects}
     
     col1,col2=st.columns([3,1])
 
@@ -144,10 +144,10 @@ def take_attendance_screen():
         if student_snaps:
             st.markdown('<h4 style="font-size:220px;">Added Photos </h4>', unsafe_allow_html=True)
 
-            cols=st.columns(4,gap="xxlarge")
+            cols=st.columns(4,gap="xxsmall")
             for i,snap in enumerate(student_snaps):
                 with cols[i%4]:
-                    st.image(snap,width=200,caption=f"Photo {i+1}")
+                    st.image(snap,width="stretch",caption=f"Photo {i+1}")
         
     
     st.divider()
@@ -242,7 +242,7 @@ def manage_subjects_screen():
             
             
             def share_btn():
-                if st.button(f"Share Code:{sub["sub_name"]}",key=f"share_{sub["sub_code"]}",icon=":material/share:"):
+                if st.button(f"Share Code:{sub['sub_name']}",key=f"share_{sub['sub_code']}",icon=":material/share:"):
                     share_sub_dialogue(sub["sub_name"],sub["sub_code"])
             
             display_card(
