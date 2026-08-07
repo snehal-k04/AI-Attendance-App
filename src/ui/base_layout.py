@@ -152,9 +152,7 @@ margin-right:-70px !important;
 margin-left:-10px !important;
 }
 
-.foot{
-color:red !important;
-}
+
 </style>
 """,unsafe_allow_html=True)
     
