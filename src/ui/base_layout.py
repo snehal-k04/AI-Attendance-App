@@ -224,9 +224,7 @@ font-family: "Tilt Prism", sans-serif !important;
 margin-right:-70px !important;
 margin-left:-10px !important;
 }
-.foot{
-color:red !important;
-}
+
 </style>
 """,unsafe_allow_html=True)
 
@@ -334,9 +332,6 @@ div[data-testid="stFullScreenFrame"] img {
     margin-left: -5px !important;
 }
 
-.foot{
-color:red !important;
-}
 </style>
 """,unsafe_allow_html=True)
 
